@@ -17,6 +17,6 @@ public class Main {
         System.out.println();
 
         coche1.acelerar();
-        coche1.frenar();
+        Coche.frenar();
     }
 }
