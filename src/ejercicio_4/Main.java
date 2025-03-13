@@ -33,7 +33,7 @@ public class Main {
                     7. Calculate a story's price
                     0. Exit
                     """);
-            option = readInt();
+            option = sc.nextInt();
 
             if (option == 1) {
                 System.out.println("Enter the name of the editor:");
@@ -89,18 +89,6 @@ public class Main {
                 System.out.println("This story's price is " + price + "€.\n");
             }
         } while (option != 0);
-    }
-
-    static int readInt() {
-        while (true) {
-            try {
-                System.out.print("Choose a valid option: ");
-                return sc.nextInt();
-            } catch (java.util.InputMismatchException e) {
-                System.out.println("Invalid input. Please enter an integer.");
-                sc.next();
-            }
-        }
     }
 }
 

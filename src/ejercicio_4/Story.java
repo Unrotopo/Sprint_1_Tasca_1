@@ -46,7 +46,7 @@ public abstract class Story {
                     4. Tennis
                     5. Motorcycling
                     """);
-            option = readInt();
+            option = sc.nextInt();
 
 
             if (option == 1) {
