@@ -13,7 +13,9 @@ public class Instrument {
         System.out.println("Bloque inicialización 1");
     }
 
-    public Instrument() {
+    public Instrument(String name, int price) {
+        this.name = name;
+        this.price = price;
         System.out.println("Constructor!");
     }
 

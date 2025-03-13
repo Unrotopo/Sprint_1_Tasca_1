@@ -11,7 +11,7 @@ public class Main {
     private static final Scanner sc = new Scanner(System.in);
     static ArrayList<Editor> editors = new ArrayList<>();
 
-    public static void main() {
+    public static void main(String[] args) {
 
         int option;
         String name;

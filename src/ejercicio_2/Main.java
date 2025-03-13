@@ -3,17 +3,17 @@ package ejercicio_2;
 public class Main {
     public static void main(String[] args) {
 
-        Coche coche1 = new Coche();
-        Coche coche2 = new Coche();
-        System.out.println("Mi antiguo coche era un " + coche1.marca + " " + coche1.modelo + " de " + coche1.potencia + " CV.");
+        Coche coche1 = new Coche(100);
 
-        coche1.modelo = "Jimny 1.5";
-        // coche2.potencia = 200; No permitido
+        System.out.println("Mi primer coche era un " + coche1.marca + " " + coche1.modelo + " de " + coche1.potencia + " CV.");
 
-        System.out.println("Mi coche a subido de nivel, ahora es un " + coche1.modelo);
+        Coche coche2 = new Coche(169);
+        coche2.modelo = "Jimny 1.5";
+
+        System.out.println("Mi segundo coche era un " + coche2.marca + " " + coche2.modelo + " de " + coche2.potencia + " CV.");
         System.out.println();
 
-        System.out.println("Ahora todos los coches son " + coche2.modelo + " y tienen " + coche2.potencia + " CV.");
+        System.out.println("Mi primer coche ahora es un " + coche1.marca + " " + coche1.modelo + " de " + coche1.potencia + " CV.");
         System.out.println();
 
         coche1.acelerar();
