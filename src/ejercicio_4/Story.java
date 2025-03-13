@@ -36,6 +36,11 @@ public abstract class Story {
         int option;
         int id = findEditor(editorId);
         Editor editor = editors.get(id);
+        Story story;
+        String competition;
+        String club;
+        String player;
+        String team;
 
         do {
             System.out.println("""
@@ -51,44 +56,44 @@ public abstract class Story {
 
             if (option == 1) {
                 System.out.println("Enter the competition:");
-                String competition = sc.next();
+                competition = sc.next();
                 System.out.println("Enter the club:");
-                String club = sc.next();
+                club = sc.next();
                 System.out.println("Enter the player:");
-                String player = sc.next();
-                Story story = new FootballStory(headline, competition, club, player);
+                player = sc.next();
+                story = new FootballStory(headline, competition, club, player);
                 editor.addStory(story);
                 break;
 
             } else if (option == 2) {
                 System.out.println("Enter the competition:");
-                String competition = sc.next();
+                competition = sc.next();
                 System.out.println("Enter the club:");
-                String club = sc.next();
-                Story story = new BasketStory(headline, competition, club);
+                club = sc.next();
+                story = new BasketStory(headline, competition, club);
                 editor.addStory(story);
                 break;
 
             } else if (option == 3) {
                 System.out.println("Enter the team:");
-                String team = sc.next();
-                Story story = new F1Story(headline, team);
+                team = sc.next();
+                story = new F1Story(headline, team);
                 editor.addStory(story);
                 break;
 
             } else if (option == 4) {
                 System.out.println("Enter the competition:");
-                String competition = sc.next();
+                competition = sc.next();
                 System.out.println("Enter the player:");
-                String player = sc.next();
-                Story story = new TennisStory(headline, competition, player);
+                player = sc.next();
+                story = new TennisStory(headline, competition, player);
                 editor.addStory(story);
                 break;
 
             } else if (option == 5) {
                 System.out.println("Enter the team:");
-                String team = sc.next();
-                Story story = new MotorcyclingStory(headline, team);
+                team = sc.next();
+                story = new MotorcyclingStory(headline, team);
                 editor.addStory(story);
                 break;
             }

@@ -22,7 +22,7 @@ public class Main {
 
         do {
             System.out.println("""
-                    Welcome to NotFakeNews
+                    ----  NotFakeNews   ----
                     Please, select an option:
                     1. Add an editor
                     2. Remove an editor

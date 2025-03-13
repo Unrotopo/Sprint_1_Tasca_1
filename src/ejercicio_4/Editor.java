@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import static ejercicio_4.Main.editors;
 
-public class Editor {
+public class  Editor {
 
     private final String name;
     private final String id;
