@@ -1,4 +1,4 @@
-package ejercicio_1;
+import objects.Instrument;
 
 public class Main {
     public static void main(String[] args) {
