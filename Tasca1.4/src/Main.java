@@ -6,7 +6,7 @@ import static mainobjects.Story.*;
 
 public class Main {
 
-    private static final Scanner sc = new Scanner(System.in);
+    private static final Scanner sc = new Scanner(System.in); // Donde está mejor esto. Fuera seguro que no
 
     public static void main(String[] args) {
 
@@ -16,6 +16,10 @@ public class Main {
         String headline;
         String demandId = "Enter the ID of the editor:";
         String demandHeadline = "Enter the headline of the story:";
+
+        // Demasiadas cosas dentro del Main! Mirar el tres
+        // Reordenar clases
+        // Crear clase que gestiona comportamientos
 
         do {
             System.out.println("""

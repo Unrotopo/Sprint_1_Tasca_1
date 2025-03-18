@@ -1,6 +1,6 @@
 package objects;
 
-public class Instrument {
+public abstract class Instrument {
 
     static{
         System.out.println("Bloque estático, solo se carga una vez");
@@ -19,26 +19,15 @@ public class Instrument {
         System.out.println("Constructor!");
     }
 
+    static {
+        System.out.println("Bloque estático, da igual dónde esté");
+    }
+
     {
         System.out.println("Bloque inicialización 2");
     }
 
-    void play(){}
+    public void play(){}
 
-    public static class WindInstrument {
-        void play(){
-            System.out.println("Está sonando un instrumento de viento.");
-        }
-    }
-    public static class StringInstrument {
-        void play(){
-            System.out.println("Está sonando un instrumento de cuerda");
-        }
-    }
-    public static class PercussionInstrument {
-        void play(){
-            System.out.println("Está sonando un instrumento de percusión");
-        }
-    }
 }
 

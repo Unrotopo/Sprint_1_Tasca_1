@@ -18,5 +18,8 @@ public class Main {
 
         coche1.acelerar();
         Coche.frenar();
+
+        // El unico atributo de la instancia es potencia
+        //
     }
 }

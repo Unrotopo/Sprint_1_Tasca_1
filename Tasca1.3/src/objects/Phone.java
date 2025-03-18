@@ -5,7 +5,7 @@ public class Phone {
     private String brand;
     private String model;
 
-    void call(String phoneNum) {
+    public void call(String phoneNum) {
         System.out.println("Llamando a: " + phoneNum);
     }
 

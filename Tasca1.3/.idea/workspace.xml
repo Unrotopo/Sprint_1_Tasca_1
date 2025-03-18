@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="507e7e0c-e797-42c0-9390-cc879456508d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Tasca1.1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.1/src/objects/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.1/src/objects/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Camera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Phone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Smartphone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Smartphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.4/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,10 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/otror/Documents/it/Tasca1/Tasca1.4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -66,6 +76,7 @@
       <updated>1742280067284</updated>
       <workItem from="1742280068408" duration="124000" />
       <workItem from="1742280220296" duration="41000" />
+      <workItem from="1742311257062" duration="947000" />
     </task>
     <servers />
   </component>

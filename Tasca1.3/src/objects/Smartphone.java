@@ -1,5 +1,7 @@
 package objects;
 
+import interfaces.*;
+
 public class Smartphone extends Phone implements Camera, Clock {
 
     public void takePhoto() {
