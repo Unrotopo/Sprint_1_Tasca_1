@@ -1,4 +1,4 @@
-package ejercicio_3;
+package objects;
 
 public class Smartphone extends Phone implements Camera, Clock {
 

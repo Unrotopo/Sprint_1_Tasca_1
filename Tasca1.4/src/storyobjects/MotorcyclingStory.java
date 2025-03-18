@@ -1,8 +1,10 @@
-package ejercicio_4;
+package storyobjects;
+
+import mainobjects.Story;
 
 public class MotorcyclingStory extends Story {
 
-    private String team;
+    private final String team;
 
     public MotorcyclingStory(String headline, String team) {
         super(headline);

@@ -1,10 +1,9 @@
-package ejercicio_4;
+package mainobjects;
 
+import storyobjects.*;
 import java.util.Scanner;
 
-import static ejercicio_4.Editor.findEditor;
-import static ejercicio_4.Main.*;
-
+import static mainobjects.Editor.findEditor;
 
 public abstract class Story {
 

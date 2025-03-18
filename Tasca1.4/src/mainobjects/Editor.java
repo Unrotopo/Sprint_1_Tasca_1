@@ -1,8 +1,6 @@
-package ejercicio_4;
+package mainobjects;
 
 import java.util.ArrayList;
-
-import static ejercicio_4.Main.editors;
 
 public class  Editor {
 

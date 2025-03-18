@@ -1,15 +1,15 @@
-package ejercicio_4;
+import mainobjects.Editor;
 
-import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.ArrayList;
 
-import static ejercicio_4.Editor.*;
-import static ejercicio_4.Story.*;
+import static mainobjects.Editor.*;
+import static mainobjects.Story.*;
 
 public class Main {
 
     private static final Scanner sc = new Scanner(System.in);
-    static ArrayList<Editor> editors = new ArrayList<>();
+    public static ArrayList<Editor> editors = new ArrayList<>();
 
     public static void main(String[] args) {
 

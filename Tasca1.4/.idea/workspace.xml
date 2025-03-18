@@ -1,27 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f120bd1-fad0-4d6d-be6c-07e0fac4e830" name="Changes" comment="" />
+    <list default="true" id="0f120bd1-fad0-4d6d-be6c-07e0fac4e830" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tasca1.3/Tasca1.3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Camera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Smartphone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasketStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/BasketStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainobjects/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F1Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/F1Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FootballStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/FootballStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MotorcyclingStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/MotorcyclingStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainobjects/Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TennisStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/TennisStory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Unrotopo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Unrotopo/Sprint_1_Tasca_1.git&quot;,
+    &quot;accountId&quot;: &quot;59cbcc6d-41eb-46d0-8867-813de39201a6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2uTjR1Gg8imiLlE0pqjAdRgOvHV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/otror/Documents/it/Tasca1/Tasca1.4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -38,7 +91,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742279449097</updated>
+      <workItem from="1742280262800" duration="1301000" />
+      <workItem from="1742281583483" duration="442000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

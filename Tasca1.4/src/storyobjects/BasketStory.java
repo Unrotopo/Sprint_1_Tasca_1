@@ -1,9 +1,11 @@
-package ejercicio_4;
+package storyobjects;
+
+import mainobjects.Story;
 
 public class BasketStory extends Story {
 
-    private String competition;
-    private String club;
+    private final String competition;
+    private final String club;
 
     public BasketStory(String headline, String competition, String club) {
         super(headline);

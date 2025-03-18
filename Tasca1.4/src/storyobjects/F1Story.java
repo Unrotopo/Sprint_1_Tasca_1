@@ -1,8 +1,10 @@
-package ejercicio_4;
+package storyobjects;
+
+import mainobjects.Story;
 
 public class F1Story extends Story {
 
-    private String team;
+    private final String team;
 
     public F1Story(String headline, String team) {
         super(headline);

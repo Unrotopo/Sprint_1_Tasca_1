@@ -1,4 +1,4 @@
-package ejercicio_3;
+package interfaces;
 
 public interface Camera {
     void takePhoto();
