@@ -1,5 +1,3 @@
-package ejercicio_2;
-
 public class Coche {
 
     static final String marca = "Suzuki";
@@ -9,6 +7,7 @@ public class Coche {
     public Coche(int potencia) {
         this.potencia = potencia;
     }
+
     public static void frenar() {
         System.out.println("Frenando");
     }
