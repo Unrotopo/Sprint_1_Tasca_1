@@ -1,6 +1,6 @@
-package storyobjects;
+package objects.storyobjects;
 
-import mainobjects.Story;
+import objects.Story;
 
 public class FootballStory extends Story {
 

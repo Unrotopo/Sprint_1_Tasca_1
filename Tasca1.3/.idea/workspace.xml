@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507e7e0c-e797-42c0-9390-cc879456508d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Tasca1.1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.1/src/objects/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.1/src/objects/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.4/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="507e7e0c-e797-42c0-9390-cc879456508d" name="Changes" comment="No hay cambios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,8 +35,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/otror/Documents/it/Tasca1/Tasca1.4",
@@ -77,10 +69,24 @@
       <workItem from="1742280068408" duration="124000" />
       <workItem from="1742280220296" duration="41000" />
       <workItem from="1742311257062" duration="947000" />
+      <workItem from="1742314199436" duration="62000" />
     </task>
+    <task id="LOCAL-00001" summary="No hay cambios">
+      <option name="closed" value="true" />
+      <created>1742314244257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742314244257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="No hay cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="No hay cambios" />
   </component>
 </project>
