@@ -17,6 +17,7 @@ public class FootballStory extends Story {
         this.setScore(calculateScoreNews());
     }
 
+    @Override
     public int calculatePriceNews() {
         int price = 300;
         if ("Lliga de Champions".equals(this.competition)) {
@@ -31,7 +32,7 @@ public class FootballStory extends Story {
         return price;
     }
 
-
+    @Override
     public int calculateScoreNews() {
         int score = 5;
         if ("Lliga de Champions".equals(this.competition)) {

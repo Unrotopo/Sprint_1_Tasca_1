@@ -13,6 +13,7 @@ public class MotorcyclingStory extends Story {
         this.setScore(calculateScoreNews());
     }
 
+    @Override
     public int calculatePriceNews() {
         int price = 100;
         if ("Honda".equals(this.team) || "Yamaha".equals(this.team)) {
@@ -21,6 +22,7 @@ public class MotorcyclingStory extends Story {
         return price;
     }
 
+    @Override
     public int calculateScoreNews() {
         int score = 3;
         if ("Honda".equals(this.team) || "Yamaha".equals(this.team)) {

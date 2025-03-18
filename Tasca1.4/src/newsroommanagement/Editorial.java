@@ -16,9 +16,9 @@ public class Editorial {
     public static void deleteStory(String editorId, String headline) {
         int id = findEditor(editorId);
         Editor editor = editors.get(id);
-        for (int i = 0; i < editor.storyList.size(); i++) {
-            if (editor.storyList.get(i).getHeadline().equals(headline)) {
-                editor.storyList.remove(i);
+        for (int i = 0; i < editor.getStoryList().size(); i++) {
+            if (editor.getStoryList().get(i).getHeadline().equals(headline)) {
+                editor.getStoryList().remove(i);
             }
         }
     }

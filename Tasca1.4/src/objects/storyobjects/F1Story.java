@@ -13,6 +13,7 @@ public class F1Story extends Story {
         this.setScore(calculateScoreNews());
     }
 
+    @Override
     public int calculatePriceNews() {
         int price = 100;
         if ("Ferrari".equals(this.team) || "Mercedes".equals(this.team)) {
@@ -21,6 +22,7 @@ public class F1Story extends Story {
         return price;
     }
 
+    @Override
     public int calculateScoreNews() {
         int score = 4;
         if ("Ferrari".equals(this.team) || "Mercedes".equals(this.team)) {

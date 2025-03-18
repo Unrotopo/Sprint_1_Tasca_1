@@ -15,6 +15,7 @@ public class BasketStory extends Story {
         this.setScore(calculateScoreNews());
     }
 
+    @Override
     public int calculatePriceNews() {
         int price = 250;
         if ("Eurolliga".equals(this.competition)) {
@@ -26,6 +27,7 @@ public class BasketStory extends Story {
         return price;
     }
 
+    @Override
     public int calculateScoreNews() {
         int score = 250;
         if ("Eurolliga".equals(this.competition)) {
