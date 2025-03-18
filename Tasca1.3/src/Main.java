@@ -7,6 +7,5 @@ public class Main {
         phone.call("666777888");
         phone.takePhoto();
         phone.alarm();
-
     }
 }
