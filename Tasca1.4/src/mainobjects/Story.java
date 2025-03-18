@@ -3,6 +3,7 @@ package mainobjects;
 import storyobjects.*;
 import java.util.Scanner;
 
+import static mainobjects.Editor.editors;
 import static mainobjects.Editor.findEditor;
 
 public abstract class Story {

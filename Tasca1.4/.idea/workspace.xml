@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f120bd1-fad0-4d6d-be6c-07e0fac4e830" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tasca1.3/Tasca1.3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca1.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Camera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Clock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Phone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca1.3/src/Smartphone.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasketStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/BasketStory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainobjects/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/F1Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/F1Story.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FootballStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/FootballStory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MotorcyclingStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/MotorcyclingStory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainobjects/Story.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TennisStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storyobjects/TennisStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainobjects/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainobjects/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainobjects/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainobjects/Story.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742279449097</updated>
       <workItem from="1742280262800" duration="1301000" />
-      <workItem from="1742281583483" duration="442000" />
+      <workItem from="1742281583483" duration="1610000" />
     </task>
     <servers />
   </component>

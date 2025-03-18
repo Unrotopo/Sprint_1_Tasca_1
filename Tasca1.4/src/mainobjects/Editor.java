@@ -7,6 +7,7 @@ public class  Editor {
     private final String name;
     private final String id;
     private static double salary = 1500;
+    public static ArrayList<Editor> editors = new ArrayList<>();
     ArrayList<Story> storyList = new ArrayList<>();
 
 

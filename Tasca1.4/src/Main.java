@@ -1,15 +1,12 @@
 import mainobjects.Editor;
 
 import java.util.Scanner;
-import java.util.ArrayList;
-
 import static mainobjects.Editor.*;
 import static mainobjects.Story.*;
 
 public class Main {
 
     private static final Scanner sc = new Scanner(System.in);
-    public static ArrayList<Editor> editors = new ArrayList<>();
 
     public static void main(String[] args) {
 
