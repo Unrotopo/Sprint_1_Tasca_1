@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        Coche coche1 = new Coche(100);
+        Car car1 = new Car(100);
 
-        System.out.println("Mi coche era un " + Coche.marca + " " + Coche.modelo + " de " + coche1.potencia + " CV.\n");
+        System.out.println("Mi coche era un " + Car.BRAND + " " + Car.model + " de " + car1.HORSEPOWER + " CV.\n");
 
-        Coche.modelo = "Jimny 1.5";
+        Car.model = "Jimny 1.5";
 
-        System.out.println("Mi coche ahora es un " + Coche.marca + " " + Coche.modelo + " de " + coche1.potencia + " CV.\n");
+        System.out.println("Mi coche ahora es un " + Car.BRAND + " " + Car.model + " de " + car1.HORSEPOWER + " CV.\n");
 
-        coche1.acelerar();
-        Coche.frenar();
+        car1.carAccelerate();
+        Car.carBreak();
     }
 }

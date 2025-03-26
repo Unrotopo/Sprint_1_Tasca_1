@@ -1,18 +1,18 @@
-public class Coche {
+public class Car {
 
-    static final String marca = "Suzuki";
-    static String modelo = "Jimny";
-    final int potencia;
+    static final String BRAND = "Suzuki";
+    static String model = "Jimny";
+    final int HORSEPOWER;
 
-    public Coche(int potencia) {
-        this.potencia = potencia;
+    public Car(int HORSEPOWER) {
+        this.HORSEPOWER = HORSEPOWER;
     }
 
-    public static void frenar() {
-        System.out.println("Frenando");
+    public static void carBreak() {
+        System.out.println("Breaking");
     }
 
-    public void acelerar() {
-        System.out.println("Acelerando");
+    public void carAccelerate() {
+        System.out.println("Accelerating");
     }
 }
