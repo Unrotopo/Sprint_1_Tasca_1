@@ -1,8 +1,8 @@
-package newsroommanagement;
+package newsRoomManagement;
 
-import objects.Editor;
+import entities.Editor;
 
-import static newsroommanagement.Editorial.editors;
+import static newsRoomManagement.Editorial.editors;
 
 public class HR {
 

@@ -1,4 +1,4 @@
-import static newsroommanagement.Editorial.*;
+import static newsRoomManagement.Editorial.*;
 
 public class Main {
 

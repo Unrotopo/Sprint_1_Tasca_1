@@ -1,6 +1,6 @@
-package objects.storyobjects;
+package entities.storyCategories;
 
-import objects.Story;
+import entities.Story;
 
 public class TennisStory extends Story {
 

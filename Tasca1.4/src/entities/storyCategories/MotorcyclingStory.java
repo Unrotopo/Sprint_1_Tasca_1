@@ -1,12 +1,12 @@
-package objects.storyobjects;
+package entities.storyCategories;
 
-import objects.Story;
+import entities.Story;
 
-public class F1Story extends Story {
+public class MotorcyclingStory extends Story {
 
     private final String team;
 
-    public F1Story(String headline, String team) {
+    public MotorcyclingStory(String headline, String team) {
         super(headline);
         this.team = team;
         this.setPrice(calculatePriceNews());
@@ -16,7 +16,7 @@ public class F1Story extends Story {
     @Override
     public int calculatePriceNews() {
         int price = 100;
-        if ("Ferrari".equals(this.team) || "Mercedes".equals(this.team)) {
+        if ("Honda".equals(this.team) || "Yamaha".equals(this.team)) {
             price += 50;
         }
         return price;
@@ -24,9 +24,9 @@ public class F1Story extends Story {
 
     @Override
     public int calculateScoreNews() {
-        int score = 4;
-        if ("Ferrari".equals(this.team) || "Mercedes".equals(this.team)) {
-            score += 2;
+        int score = 3;
+        if ("Honda".equals(this.team) || "Yamaha".equals(this.team)) {
+            score += 3;
         }
         return score;
     }
