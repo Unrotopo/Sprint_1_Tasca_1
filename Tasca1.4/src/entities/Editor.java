@@ -2,6 +2,7 @@ package entities;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class  Editor {
 
@@ -9,6 +10,7 @@ public class  Editor {
     private final String id;
     private static double salary = 1500;
     private final ArrayList<Story> storyList;
+    private static Scanner sc = new Scanner(System.in);
 
     public Editor(String name, String id) {
         this.name = name;
@@ -43,10 +45,7 @@ public class  Editor {
 
     public void getStories() {
         System.out.println("The editor is working on:\n");
-        for (Story story : getStoryList()) {
-            System.out.println(story.getHeadline());
-        }
-        System.out.println();
+        getStoryList().forEach(story -> System.out.println(story.getHeadline()));
     }
 
     public Story getStory(String headline) {
@@ -55,6 +54,8 @@ public class  Editor {
                 return story;
             }
         }
-        return null;
+        System.out.println("No story found with headline: " + headline);
+        System.out.println("Care to repeat the headline?");
+        return getStory(sc.nextLine());
     }
 }

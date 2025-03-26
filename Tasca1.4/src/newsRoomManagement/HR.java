@@ -2,9 +2,14 @@ package newsRoomManagement;
 
 import entities.Editor;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 import static newsRoomManagement.Editorial.editors;
 
 public class HR {
+
+    private static Scanner sc = new Scanner(System.in);
 
     public static void createEditor(String name, String id) {
         Editor editor = new Editor(name, id);
@@ -12,34 +17,17 @@ public class HR {
     }
 
     public static void deleteEditor(String id) {
-        int foundId = -1;
-        for (int i = 0; i < editors.size(); i++) {
-            if (editors.get(i).getId().equals(id)) {
-                foundId = i;
-                break;
-            }
-        }
-        if (foundId == -1) {
-            System.out.println("Editor not found");
-        } else {
-            editors.remove(foundId);
-            System.out.println("Editor deleted successfully");
-        }
+        editors.removeIf(editor -> editor.getId().equals(id));
     }
 
-    public static int findEditor(String id) {
-        int foundId = -1;
-        for (int i = 0; i < editors.size(); i++) {
-            if (editors.get(i).getId().equals(id)) {
-                foundId = i;
-                break;
+    public static Editor findEditor(String id) {
+        for (Editor editor : new ArrayList<>(editors)) {
+            if (editor.getId().equals(id)) {
+                return editor;
             }
         }
-        if (foundId == -1) {
-            System.out.println("Editor not found");
-            return 0;
-        } else {
-            return foundId;
-        }
+        System.out.println("I think the Id may be wrong! Could you write it again?");
+        String newId = sc.nextLine();
+        return findEditor(newId);
     }
 }

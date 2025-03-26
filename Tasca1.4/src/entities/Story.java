@@ -25,7 +25,7 @@ public abstract class Story {
     }
 
     public String getHeadline() {
-        return headline;
+        return this.headline;
     }
 
     public int getScore() {
