@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0f120bd1-fad0-4d6d-be6c-07e0fac4e830" name="Changes" comment="Creo que hay bastantes cosas que no funcionan :/">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Story.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newsRoomManagement/Editorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newsRoomManagement/Editorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newsRoomManagement/HR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newsRoomManagement/HR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/otror/Documents/it/Tasca1/Tasca1.4",
+    "last_opened_file_path": "C:/Users/otror/Documents/it/Tasca6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,7 +84,7 @@
       <workItem from="1742314263554" duration="3267000" />
       <workItem from="1742320101074" duration="669000" />
       <workItem from="1742320851310" duration="176000" />
-      <workItem from="1743002369500" duration="9844000" />
+      <workItem from="1743002369500" duration="10489000" />
     </task>
     <task id="LOCAL-00001" summary="Creo que hay bastantes cosas que no funcionan :/">
       <option name="closed" value="true" />
